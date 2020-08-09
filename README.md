@@ -21,17 +21,17 @@ keras==2.3.1
    4：surprise
    5：neural
 
-   data分为两个文件夹，usual为通用微博数据集文件夹，virus为疫情微博数据集文件夹\n
-   usual_train.txt    官方发布通用微博训练集\n
-   usual_test.txt    官方发布疫情微博数据集\n
-   train_sen.tsv    整理无标签训练集（每行一句）
-   test_sen.csv    整理无标签测试集（每行一句）
-   train_label.tsv    带标签训练集（每行标签+句子）
-   train.tsv    抽取2000条数据后的训练集（每行标签+句子）
-   dev.tsv    抽取2000条作为验证集（每行标签+句子）
-   train_emb.tsv    预训练得到的训练集句向量（每行768维向量）
-   test_emb.tsv    预训练得到的测试集句向量（每行768维向量）
-   virus文件夹与之对应
+   * data分为两个文件夹，usual为通用微博数据集文件夹，virus为疫情微博数据集文件夹\n
+   * usual_train.txt    官方发布通用微博训练集\n
+   * usual_test.txt    官方发布疫情微博数据集\n
+   * train_sen.tsv    整理无标签训练集（每行一句）
+   * test_sen.csv    整理无标签测试集（每行一句）
+   * train_label.tsv    带标签训练集（每行标签+句子）
+   * train.tsv    抽取2000条数据后的训练集（每行标签+句子）
+   * dev.tsv    抽取2000条作为验证集（每行标签+句子）
+   * train_emb.tsv    预训练得到的训练集句向量（每行768维向量）
+   * test_emb.tsv    预训练得到的测试集句向量（每行768维向量）
+   * virus文件夹与之对应
 
    3.2 评测主程序
    评测主程序为smp_main.py
