@@ -43,10 +43,10 @@ keras==2.3.1
 4. 预训练句向量
 以usual/train_sen.tsv为例
 
-运行
+* 运行
 sh RoBERT/train.sh
 得到训练模型tmp/sim_model
 
-运行
+* 运行
 sh getemb.sh
 得到句向量train_emb.tsv
