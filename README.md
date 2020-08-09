@@ -21,9 +21,9 @@ keras==2.3.1
    4：surprise
    5：neural
 
-   data分为两个文件夹，usual为通用微博数据集文件夹，virus为疫情微博数据集文件夹
-   usual_train.txt    官方发布通用微博训练集
-   usual_test.txt    官方发布疫情微博数据集
+   data分为两个文件夹，usual为通用微博数据集文件夹，virus为疫情微博数据集文件夹\n
+   usual_train.txt    官方发布通用微博训练集\n
+   usual_test.txt    官方发布疫情微博数据集\n
    train_sen.tsv    整理无标签训练集（每行一句）
    test_sen.csv    整理无标签测试集（每行一句）
    train_label.tsv    带标签训练集（每行标签+句子）
